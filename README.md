@@ -23,7 +23,7 @@
 
 ## 1) What is Machine Learning
 
-<img src="images/MLDiagram.jpg" style="border:1px solid grey; border-radius:10px;">
+<kbd><img src="images/MLDiagram.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 ### What?
 Machine learning is a branch of artificial intelligence focused on developing algorithms that allow computers to **learn from data and improve their performance over time without being explicitly programmed for every task.**
