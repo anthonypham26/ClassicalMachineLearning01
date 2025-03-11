@@ -34,9 +34,11 @@ Models are trained on historical data (input) to identify patterns and relations
 ### Why?
 It automates decision-making processes and continuously improves performance, often handling complex tasks and large datasets more efficiently than traditional programming approaches.
 
+---
+
 #### Example: Email Spam Filtering
 
-<img src="images/MLPipeline.jpg" style="border:1px solid grey; border-radius:10px;">
+<kbd><img src="images/MLPipeline.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 When you use Gmail, Google automatically filters spam emails into a separate section or displays a warning at the top of the email. This occurs because Google has developed a spam filter that automatically sorts unwanted emails.
 - **Data Collection:** Gather a large dataset of emails labeled as "spam" or "not spam."
@@ -54,8 +56,6 @@ When you use Gmail, Google automatically filters spam emails into a separate sec
 - Understand basic concepts of data analysis and statistics.
 - Learn how to handle and clean data in CSV format using Python.
 - Become familiar with basic types of visualizations and data storytelling.
-
----
 
 ## 3) Humanism and AI ethics
 
@@ -76,7 +76,7 @@ Since there is no Machine Learning without data, it is crucial to understand how
 
 Data is the foundation of Machine Learning because models learn patterns and make predictions from the information provided so it's very important we handle data correctly.
 
-### A) CSV Files
+#### CSV Files
 
 There are three main types of data:
 - **Structured Data:** Organized into tables with clear relationships 
@@ -127,8 +127,6 @@ import pandas as pd
 df = pd.read_csv('/content/drive/MyDrive/path_to_file.csv')
 ```
 
----
-
 ### Data Cleaning
 
 Now that we have read over our Data and have it in our software, we can observe some things about the dataset
@@ -163,8 +161,6 @@ df = df.dropna()
 # df.fillna(df.mean(), inplace=True)
 ```
 
----
-
 ### Statistics in Data Cleaning
 
 Statistics help us understand the structure and quality of data before using it in machine learning models
@@ -183,7 +179,6 @@ By applying statistical methods, we can detect errors, identify missing values, 
 
 
 ### Common pandas Functions for Machine Learning
----
 
 #### Data Import and Inspection
 
@@ -275,7 +270,7 @@ In this scenario, both features are equally important, but the ***meters*** feat
 - **Robust Scaling:**  
   - Uses the median and interquartile range, making it less sensitive to outliers.
 
-<img src="images/Scaling.jpg" style="border:1px solid grey; border-radius:10px;">
+<kbd><img src="images/Scaling.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 
 ### Encoding Categorical Variables
@@ -296,7 +291,7 @@ Here are 2 common methods:
     - Keeps data in a form that many ML algorithms handle well (especially tree-based models).
     - *Note:* This increases the number of features but avoids implying any order.
 
-<img src="images/oneHotEncoding.png" style="border:1px solid grey; border-radius:10px;">
+<kbd><img src="images/oneHotEncoding.png" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 
 ### Feature Engineering (Advanced)
@@ -346,7 +341,7 @@ Below are several common types of graphs with their key features and when each t
         - Effective for visualizing correlation matrices or frequency distributions across multiple categories.  
     - The variation in color intensity helps indicate the magnitude of the data values, providing an immediate visual cue to trends and anomalies.
 
-<img src="images/graphs.jpg" style="border:1px solid grey; border-radius:10px;">
+<kbd><img src="images/graphs.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 ## 7) Data Analysis/Preprocessing
 
