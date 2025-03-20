@@ -419,38 +419,38 @@ This important aspect of data analysis is the final step in Machine Learning, en
 
 **General Machine Learning & Data Science**
 
-- **MLU-Explain** – [https://mlu-explain.github.io/](https://mlu-explain.github.io/)  
+- *MLU-Explain* – [https://mlu-explain.github.io/](https://mlu-explain.github.io/)  
   - Interactive learning platform with step-by-step visual explanations. Ideal for beginners and hands-on learning.
 
-- **Google’s Machine Learning Crash Course** – [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)  
+- *Google’s Machine Learning Crash Course* – [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)  
   - A free course with hands-on coding exercises.
 
-- **Kaggle Courses** – [https://www.kaggle.com/learn](https://www.kaggle.com/learn)  
+- *Kaggle Courses* – [https://www.kaggle.com/learn](https://www.kaggle.com/learn)  
   - Interactive ML & data science tutorials with real-world datasets.
 
 **Feature Engineering & Preprocessing**
 
-- **Pandas Documentation** – [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)  
+- *Pandas Documentation* – [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)  
   - Official documentation for handling structured data in Python.
 
-- **Data Cleaning Guide (Real Python)** – [https://realpython.com/python-data-cleaning-numpy-pandas/](https://realpython.com/python-data-cleaning-numpy-pandas/)  
+- *Data Cleaning Guide (Real Python)* – [https://realpython.com/python-data-cleaning-numpy-pandas/](https://realpython.com/python-data-cleaning-numpy-pandas/)  
   - A tutorial on handling missing values, duplicates, and outliers.
 
-- **Sklearn Preprocessing Guide** – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)  
+- *Sklearn Preprocessing Guide* – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)  
   - Official documentation on encoding, scaling, and feature selection
 
-- **Feature Engineering Guide** – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)  
+- *Feature Engineering Guide* – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)  
   - Learn about advanced feature transformation techniques.
 
 **Data Visualization**
-- **Matplotlib & Seaborn Tutorial** – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)  
+- *Matplotlib & Seaborn Tutorial* – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)  
   - A beginner-friendly guide to plotting with Matplotlib.
 
-- **Power BI Documentation** – [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)  
+- *Power BI Documentation* – [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)  
   - Official Microsoft guide on using Power BI.
 
-- **Streamlit Docs (for quick ML apps)** – [https://docs.streamlit.io/](https://docs.streamlit.io/)  
+- *Streamlit Docs (for quick ML apps)* – [https://docs.streamlit.io/](https://docs.streamlit.io/)  
   - Learn how to build interactive ML dashboards easily.
 
-- **Dash by Plotly** – [https://dash.plotly.com/](https://dash.plotly.com/)  
+- *Dash by Plotly* – [https://dash.plotly.com/](https://dash.plotly.com/)  
   - Guide for creating custom, interactive web applications.
