@@ -234,7 +234,6 @@ By applying statistical methods, we can detect errors, identify missing values, 
 - **`df.describe(include='all')`**: Gives descriptive stats for numeric and object columns.
 
 
-
 #### Machine Learning
 
 - **`X = df.drop('target', axis=1)`**: Splits features from the target column.
@@ -345,7 +344,9 @@ Below are several common types of graphs with their key features and when each t
 
 ## 7) Data Analysis/Preprocessing
 
-Everything I just talked about falls into the Data Analysis/Preprocessing stage of Machine Learning. 
+Everything I just talked about falls into the Data Analysis/Preprocessing stage of Machine Learning.
+
+One acronym you might see later is ETL (Extract, Transform, Load)—the process of gathering raw data (Extract), cleaning and preparing it for analysis (Transform), and storing it in a database or system (Load). ETL ensures data is structured and ready for machine learning.
 
 **Data Collection:**
 - Collection of Data already done for you, just find a dataset and load it into your workspace
@@ -366,6 +367,14 @@ Graphs helps us understand the relationships and patterns that is hard to see as
     - What features do we scale?
     - What categorical features do we need to encode?
 
+**Split Data for Train/Test**
+At the final step of preprocessing, we split our data into a training set and a testing set to evaluate our model’s performance.
+
+The training set is used to train the model, while the test set is kept separate to assess how well the model generalizes to new data. A common split is 80% for training and 20% for testing, but this can vary depending on the dataset.
+
+There are more advanced splitting techniques, like cross-validation, that we will cover later.
+
+<kbd><img src="images/train-test-split.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 ## 8) Data Storytelling
 
@@ -373,9 +382,75 @@ This is a preview of the Data Storytelling stage, skipping past the Modeling Sta
 
 After completing both preprocessing and modeling, the next step is to effectively present your findings.
 
-
 Data storytelling is the bridge between raw data and actionable insights. 
+
+**Resources:** 
+
+- *Power BI*
+    - A data visualization and business intelligence tool by Microsoft
+    - Helps users analyze data through interactive dashboards 
+    - Connects to various data sources, cleans and transforms data, and creates visualizations like charts and graphs. 
+    
+    Power BI is widely used in businesses for data-driven decision-making.
+    
+- *Dash, Streamlit, and Gradio*
+    
+    All are Python frameworks for building interactive web applications, particularly for data visualization, machine learning models, and AI demos
+
+    - Dash
+
+        - Built on Flask and React
+        - Great for creating complex, customizable data dashboards and analytics applications which provides full control over layouts and UI components but requires more coding.
+        - Best for high grade data visualization and business intelligence applications.
+
+    - Streamlit
+        - A lightweight and fast framework designed for quick prototyping of machine learning and data science apps.
+        - Requires minimal code, just a Python script
+        - Best for creating interactive ML applications without focusing on web development.
+
+    - Gradio
+        - Easiest for AI/ML model demos, allows users to create web-based interfaces with just a few lines of code.
+            - Supports drag-and-drop functionality for image, audio, and text inputs.
+        - Best for sharing ML models with non-technical users with simple web interfaces.
+
 This important aspect of data analysis is the final step in Machine Learning, ensuring that you communicate in a way that engages your audience and informs their decisions. In other words, it is about making your data meaningful by weaving it into a clear and easy-to-understand narrative.
 
-
 ## Additional Links
+
+**General Machine Learning & Data Science**
+
+- **MLU-Explain** – [https://mlu-explain.github.io/](https://mlu-explain.github.io/)  
+  - Interactive learning platform with step-by-step visual explanations. Ideal for beginners and hands-on learning.
+
+- **Google’s Machine Learning Crash Course** – [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)  
+  - A free course with hands-on coding exercises.
+
+- **Kaggle Courses** – [https://www.kaggle.com/learn](https://www.kaggle.com/learn)  
+  - Interactive ML & data science tutorials with real-world datasets.
+
+**Feature Engineering & Preprocessing**
+
+- **Pandas Documentation** – [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)  
+  - Official documentation for handling structured data in Python.
+
+- **Data Cleaning Guide (Real Python)** – [https://realpython.com/python-data-cleaning-numpy-pandas/](https://realpython.com/python-data-cleaning-numpy-pandas/)  
+  - A tutorial on handling missing values, duplicates, and outliers.
+
+- **Sklearn Preprocessing Guide** – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)  
+  - Official documentation on encoding, scaling, and feature selection
+
+- **Feature Engineering Guide** – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)  
+  - Learn about advanced feature transformation techniques.
+
+**Data Visualization**
+- **Matplotlib & Seaborn Tutorial** – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)  
+  - A beginner-friendly guide to plotting with Matplotlib.
+
+- **Power BI Documentation** – [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)  
+  - Official Microsoft guide on using Power BI.
+
+- **Streamlit Docs (for quick ML apps)** – [https://docs.streamlit.io/](https://docs.streamlit.io/)  
+  - Learn how to build interactive ML dashboards easily.
+
+- **Dash by Plotly** – [https://dash.plotly.com/](https://dash.plotly.com/)  
+  - Guide for creating custom, interactive web applications.
